@@ -1,0 +1,74 @@
+.top{ margin-top: 30px; }
+.righto{
+    text-align: right;
+    color: rgb(145, 145, 145);
+    font-size: 14px;
+    font-weight: 400;
+}
+.mouse{ cursor: pointer; }
+.mouse .sf{ font-size: 12px !important; }
+.mouse:hover{ color: rgb(95, 95, 95); }
+.btn{cursor: pointer !important;}
+
+.fixdel{
+    position: absolute;
+    font-size: 14px !important;
+    top: 5%;
+    left: 93%;
+    cursor: pointer;
+    display:none;
+}
+
+.docbox{
+    margin-top: 30px;
+    border: 1px solid #000;
+    height: 118px;
+    -webkit-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+
+.docbox img{
+    border-radius: 100%;
+    overflow: hidden;
+    height: 75px;
+    width: 75px;
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+
+.docdesc{
+    margin-top: 38px;
+}
+
+.name{
+    line-height: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.desc{
+    line-height: 3px;
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+.docbox-add{
+    margin-top: 30px;
+    width: 100%;
+    height: 118px;
+    border: 3px dashed #6b6b6b;
+    border-radius: 25px;
+    color: #6b6b6b;
+    font-size: 20px;
+    text-align: center;
+    -webkit-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    cursor:pointer;
+    display:none;
+}
+
+.adddoc{ padding-top: 5%; }
+
+.plusdoc{ font-size: 50px; }
+
+.docbox-add:hover{ transform: scale(1.025); }
